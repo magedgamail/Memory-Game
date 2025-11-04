@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Memory Game</title>
+</head>
+<body>
+
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+        <div class="name">
+            Hello <span></span>
+        </div>
+        <span class="countd" id="countdown"></span>
+        <div class="tries">
+            Wrong Tries <span>0</span>
+        </div>
+    </div>
+
+    <div class="memory-game-blocks">
+
+        <div class="game-block" data-icons="bike">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="1" src="imgs/cool-bicycle-studio (1).jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="bike">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="1" src="imgs/cool-bicycle-studio (1).jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-icons="car">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="2" src="imgs/car.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="car">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="2" src="imgs/car.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-icons="gear">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="3" src="imgs/gear.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="gear">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="3" src="imgs/gear.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-icons="horse-head">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="4" src="imgs/horse-head.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="horse-head">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="4" src="imgs/horse-head.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-icons="horse">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="5" src="imgs/horse.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="horse">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="5" src="imgs/horse.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-icons="man">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="6" src="imgs/man.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="man">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="6" src="imgs/man.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-icons="plane">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="7" src="imgs/plane.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="plane">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="7" src="imgs/plane.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-icons="user">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="8" src="imgs/user.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="user">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="8" src="imgs/user.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-icons="cow">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="9" src="imgs/cow.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="cow">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="9" src="imgs/cow.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-icons="lion">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="10" src="imgs/lion.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icons="lion">
+            <div class="face front"></div>
+            <div class="face back">
+                <img id="10" src="imgs/lion.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <audio id="success" src="sounds/win sound.mp3" preload="auto"></audio>
+    <audio id="fail" src="sounds/los sound.mp3" preload="auto"></audio>
+
+    <script src="main.js"></script>
+</body>
+</html>
